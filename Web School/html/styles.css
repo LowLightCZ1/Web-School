@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(45deg, rgb(255, 0, 0), rgb(255, 178, 62), rgb(167, 34, 145), rgb(22, 73, 139));
+    background: linear-gradient(45deg, rgb(28, 52, 158), rgb(19, 113, 150), rgb(23, 164, 207), rgb(18, 202, 193));
     background-size: 900%, 200%;
     height: 90vh;
     animation: animate 20s linear infinite;
@@ -54,5 +54,10 @@ h2 span {
     margin: 100px 0px;
 }
  
+#square {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+}
 
 
