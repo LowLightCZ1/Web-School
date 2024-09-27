@@ -59,13 +59,13 @@ h2 span {
 }
  
 #square {
-    width: 500px;
-    height: 250px;
+    width: 700px;
+    height: 80px;
     background-color: black;
     position: relative;
-    top: 500px;
-    left: -10px;
+    top: 600px;
     display: flex;
+
 }
 
 
