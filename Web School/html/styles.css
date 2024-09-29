@@ -29,6 +29,21 @@ p {
     
 }
 
+.igs {
+    padding: 5px;
+    margin: 1px 1px;
+    width: 15em;
+    position: relative;
+    bottom: 120px;
+    left: 200px;
+    font-variant: small-caps;
+    background-image: -webkit-linear-gradient(left, rgb(19, 78, 241), rgb(9, 209, 235) );
+}
+
+.igs_link {
+    text-decoration: none;
+}
+
 h1 {
     
     padding: 0.5em 0.5em 0.5em 0.5em;
@@ -56,6 +71,24 @@ h2 span {
     top: 0;
     right: 0;
 
+}
+
+ol {
+    list-style-type: disc;
+}
+
+li span {
+    background-color: rgb(44, 226, 130);
+    font-size: large;
+    font-variant: small-caps;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+
+}
+
+.ignis {
+    position: relative;
+    width: 200px;
+    height: 200px;
 }
 
  
