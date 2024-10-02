@@ -1,1 +1,1 @@
-# Web---School
+# Web-School
