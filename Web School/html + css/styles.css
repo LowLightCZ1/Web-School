@@ -94,7 +94,29 @@ li span {
     height: 200px;
 }
 
- 
+.display {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: aliceblue;
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
 /* #square {
     width: 700px;
     height: 80px;
