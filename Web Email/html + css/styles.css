@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(45deg, rgb(28, 52, 158), rgb(19, 113, 150), rgb(23, 164, 207), rgb(18, 202, 193)); 
+    background-size: 900%, 200%;
+    height: 90vh;
+    animation: animate 8s linear infinite;
+}
+
+@keyframes animate {
+    0%{
+        background-position: 0%, 50%;
+    }
+    50%{
+        background-position: 100%, 50%;
+    }
+    0%{
+        background-position: 0%, 50%;
+    }
+}
+
+.display {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container{
+    background-color: aliceblue;
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+form{
+    margin: 20px;
+}
+
+button{
+    display: block;
+    margin: 20px 0px 10px 40px;
+}
