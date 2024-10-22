@@ -38,9 +38,17 @@ body {
 
 form{
     margin: 20px;
+    align-content: stretch;
 }
 
 button{
     display: block;
     margin: 20px 0px 10px 40px;
+}
+
+.icon{
+    position: absolute;
+    top: 10rem;
+
+    
 }
