@@ -1,28 +1,38 @@
 body {
     background: linear-gradient(70deg,rgb(75, 75, 75), rgb(165, 165, 165));
+    height: 90vh;
 }
 
-.vizitka {
+.container {
     height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    outline: solid 1px black;
 }
 
-.photo {
-    background: linear-gradient(35deg, rgba(53, 53, 241, 0.89), rgba(0, 255, 255, 0.678));
-    width: 200px;
+.vizitka{
+    width: fit-content;
     height: fit-content;
-    text-align: center;
-    padding: 40px;
-    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    display: flex;
+    flex-direction: row;
+    transition: all 3s ease-in-out;
+    background-color: blue;
 }
 
-.info {
-    background: linear-gradient(35deg, rgba(53, 53, 241, 0.89), rgba(0, 255, 255, 0.678));
-    width: 200px;
-    height: fit-content;
-    text-align: center;
-    padding: 40px;
-    border-radius: 0.5em 0.5em 0.5em 0.5em;
+.vizitka:hover{ 
+    transform: rotate(90deg);
 }
+
+.foto{
+    width: 200px;
+    height: 350px;
+    outline: solid 1px black;
+}
+
+.info{
+    width: 300px;
+    height: 350px;
+    outline: solid 1px black;
+}
+
