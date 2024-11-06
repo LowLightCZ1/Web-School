@@ -54,7 +54,8 @@ body {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    .meme{
+
+    .meme {
         border-radius: 0px;
         border: none;
         width: 100%;
