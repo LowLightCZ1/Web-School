@@ -8,23 +8,17 @@
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
     gap: 5px;
+    background-color: bisque;
 }
 
-.red{
-    background-color: red;
-    /* grid-column-start: 1;
-    grid-column-end: 6; */
-    grid-column: 2/6;
+.header{
+    display: grid;
+    grid-column: 1/6;
+    
+    outline: solid 2px black;
+    background-image: url(../img/skolavdf-3516244467.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 100px;
 }
 
-.green{
-    background-color: green;
-    grid-area: 2/2/6/6; /* r-start/ c-start/ r-end/c-end */
-}
-
-.blue{
-    background-color: blue;
-    /* grid-row-start: 2;
-    grid-row-end: 6; */
-    grid-row: 1/6;
-}
