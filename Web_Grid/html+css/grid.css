@@ -1,0 +1,30 @@
+.container{
+
+    display: grid;
+    width: 80%;
+    height: 100vh;
+    justify-self: center;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 5px;
+}
+
+.red{
+    background-color: red;
+    /* grid-column-start: 1;
+    grid-column-end: 6; */
+    grid-column: 2/6;
+}
+
+.green{
+    background-color: green;
+    grid-area: 2/2/6/6; /* r-start/ c-start/ r-end/c-end */
+}
+
+.blue{
+    background-color: blue;
+    /* grid-row-start: 2;
+    grid-row-end: 6; */
+    grid-row: 1/6;
+}
