@@ -1,5 +1,4 @@
 .container{
-
     display: grid;
     width: 80%;
     height: 100vh;
@@ -12,13 +11,11 @@
 }
 
 .header{
-    display: grid;
-    grid-column: 1/6;
-    
     outline: solid 2px black;
-    background-image: url(../img/skolavdf-3516244467.png);
+    background-image: url(../img/Frame\ 1\ \(1\).png);
+    grid-column: 1/6;
     background-repeat: no-repeat;
     background-size: contain;
-    background-position-y: 100px;
+    
 }
 
