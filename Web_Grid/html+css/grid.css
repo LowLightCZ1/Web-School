@@ -6,16 +6,25 @@
     /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    gap: 5px;
     background-color: bisque;
+    gap: 7px;
 }
 
 .header{
-    outline: solid 2px black;
+    display: grid;
+    background-color: brown;
     background-image: url(../img/Frame\ 1\ \(1\).png);
-    grid-column: 1/6;
-    background-repeat: no-repeat;
+    background-repeat:no-repeat ;
     background-size: contain;
-    
+    outline: solid 2px black;
+    grid-column: 1/6;
 }
 
+.main{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    background-color: brown;
+    grid-area: 2/2/6/6;
+    
+}
