@@ -50,7 +50,7 @@ body{
 .footer {
     outline: solid 2px black;
     display: grid;
-    background-color: cadetblue;
+    background-color: rgb(40, 65, 66);
     grid-area:6/6/5/1;
 }
 
