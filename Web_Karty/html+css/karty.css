@@ -1,0 +1,48 @@
+
+
+body{
+    background: rgb(4,0,71);
+    background: radial-gradient(circle, rgba(4,0,71,1) 0%, rgba(0,50,154,1) 49%, rgba(153,3,240,1) 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.karta{
+    border-radius: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+    background-color: rgb(57, 71, 71);
+    width: 900px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.karta::before{
+    content: '';
+    position: absolute;
+    width: 170px;
+    height: 250%;
+    background: linear-gradient(#00ccff, #d500f9);
+    animation: rotate 4s linear infinite;
+}
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.karta::after{
+    content: '';
+    position: absolute;
+    inset: 10px;
+    background: rgb(87, 81, 81)
+}
+
