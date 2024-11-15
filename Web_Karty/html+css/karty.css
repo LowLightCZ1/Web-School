@@ -55,6 +55,8 @@ body{
     border-right: groove 2px rgb(255, 255, 255);
 }
 
+
+
 .ritirske_souboje{
     background-color: rgb(56, 56, 56);
     margin: 10px 0px 10px 0px;
@@ -81,8 +83,25 @@ body{
     border-radius: 0.5em;
 }
 
+.first{
+    /* background-color: aqua; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 ul{
     margin-top:10px ;
+    margin-left: 10px;
     list-style: none;
     padding: 0;
+    height: 100%;
+
+}
+
+li{
+    border-image: linear-gradient(to right, rgb(209, 209, 209) 0%, rgb(37, 37, 37) 100%);
+    border-image-slice: 1;
+    border-top: 1px solid rgb(209, 209, 209);
 }
