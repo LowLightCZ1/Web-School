@@ -30,6 +30,7 @@ body{
     height: 210%;
     background: linear-gradient(#00ccff, #d500f9);
     animation: rotate 4s linear infinite;
+    background: linear-gradient();
 }
 
 @keyframes rotate {
@@ -53,8 +54,9 @@ body{
     margin: 10px 0px 10px 10px;
     height: 500px;
     width: 300px;
+    border-right: 2px dashed color-mix(in srgb, rgb(209, 209, 209) 0%, rgb(37, 37, 37) 100%);
     z-index: 1;
-    border-right: groove 2px rgb(255, 255, 255);
+    
 }
 
 
@@ -73,18 +75,18 @@ body{
     height: 500px;
     width: 300px;
     z-index: 1;
-    border-left: groove 2px rgb(255, 255, 255);
 }
 
-.cl{
+.cl{ /*calistenic image*/
     position: relative;
     left: 3px;
-    margin: 10px 20px 0px 20px;
+    margin: 10px 20px 0px 20px;  
     width: 85%;
     height: 35%;
     border-radius: 0.5em;
 }
 
+/*List cascady*/
 .list{
     display: grid;
     width: 100%;
@@ -125,4 +127,14 @@ body{
     padding: 0%;
     padding-left: 0%;
 }
+/*List cascady*/
 
+
+.rs{/*ritirske_souboje image*/
+    position: relative;
+    left: 3px;
+    margin: 10px 20px 0px 20px;  
+    width: 85%;
+    height: 35%;
+    border-radius: 0.5em;
+}
