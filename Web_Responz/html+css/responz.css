@@ -1,0 +1,38 @@
+body{
+    background-color: gray;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    height: 500px;
+    background-color: blueviolet;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.text{
+    width: 50%;
+}
+
+.image{
+    width: 50%;
+    background-color: red;
+    height: 500px;
+}
+
+@media only screen and (max-width: 768px){
+
+    html{
+        font-size: 20px;
+    }
+    
+    .container{
+        flex-wrap: wrap; 
+        width: 95%;
+    }
+
+    .text, .image{
+        width: 100%;
+    }
+}
