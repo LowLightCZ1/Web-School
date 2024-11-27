@@ -77,14 +77,14 @@ body{
     z-index: 1;
 }
 
-.cl{ /*calistenic image*/
-    position: relative;
+cl/*calistenic image*/
+    /* position: relative;
     left: 3px;
     margin: 10px 20px 0px 20px;  
     width: 85%;
     height: 35%;
-    border-radius: 0.5em;
-}
+    border-radius: 0.5em; */
+
 
 /*List cascady*/
 .list{
