@@ -1,0 +1,28 @@
+body{
+    background-color: cadetblue;
+}
+
+.parent_1 > *{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+
+.parent_1, .parent_2{
+    background-color: rgb(0, 132, 255);
+    width: 100%;
+    min-height: 500px;
+    border: 1px solid black;
+    
+}
+
+.parent_1 > *:first-child ~ .potomek, .parent_1 >*:first-child{
+    background-color: brown;
+}
+
+.potomek:hover{
+    background-color: aliceblue !important;
+}
