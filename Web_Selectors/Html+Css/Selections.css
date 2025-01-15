@@ -2,7 +2,7 @@ body{
     background-color: cadetblue;
 }
 
-.parent_1 > *{
+.parent_1 > *{  
     background-color: aqua;
     width: 200px;
     height: 200px;
@@ -24,5 +24,6 @@ body{
 }
 
 .potomek:hover{
+    content: "";
     background-color: aliceblue !important;
 }
