@@ -1,0 +1,24 @@
+.sun{
+    border-radius: 10em;
+    box-shadow: 10px 5px 10px 5px #FFFF00;
+    background-color:yellow ;
+    width: 200px;
+    height: 200px;
+    animation: spin 4s reverse linear infinite; 
+}
+
+@keyframes spin
+    {
+      100%{
+        transform: rotate(360deg);
+      }
+    } 
+
+/*.sun-ring{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    border: 3px solid #FFFFFF;
+}*/

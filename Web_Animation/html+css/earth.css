@@ -1,0 +1,25 @@
+.earth-ring{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 20em;
+    border: 2px solid white;
+    animation: spin 4s reverse linear infinite; 
+}
+
+@keyframes spin
+    {
+      100%{
+        transform: rotate(360deg);
+      }
+    }
+    
+
+.earth{
+    background-color: #0000ff;
+    width: 50px;
+    height: 50px;
+}
