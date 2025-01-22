@@ -1,13 +1,12 @@
 .earth-ring{
     display: flex;
     justify-content: center;
-    align-items: center;
     position: absolute;
-    width: 500px;
-    height: 500px;
-    border-radius: 20em;
+    width: 700px;
+    height: 700px;
+    border-radius: 30em;
     border: 2px solid white;
-    animation: spin 4s reverse linear infinite; 
+    animation: spin 8s reverse linear infinite;
 }
 
 @keyframes spin
@@ -22,4 +21,8 @@
     background-color: #0000ff;
     width: 50px;
     height: 50px;
-}
+    border-radius: 20em;
+    position: absolute;
+    top: -1.5em;
+    box-shadow: inset inset -2px -2px 1px 5px rgb(0, 0, 0)
+    

@@ -1,6 +1,7 @@
 .sun{
     border-radius: 10em;
-    box-shadow: 10px 5px 10px 5px #FFFF00;
+    box-shadow: inset 0px 0px 18px 39px rgba(219,192,15,1);
+    box-shadow: inset 0px 0px 49px -4px rgba(0,0,0,1);
     background-color:yellow ;
     width: 200px;
     height: 200px;
