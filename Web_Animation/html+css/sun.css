@@ -1,10 +1,9 @@
 .sun{
     border-radius: 10em;
-    box-shadow: inset 0px 0px 18px 39px rgba(219,192,15,1);
     box-shadow: inset 0px 0px 49px -4px rgba(0,0,0,1);
-    background-color:yellow ;
-    width: 200px;
-    height: 200px;
+    background: radial-gradient(circle, #ff6600, #FFFF00);
+    width: 140px;
+    height: 140px;
     animation: spin 4s reverse linear infinite; 
 }
 
@@ -15,11 +14,3 @@
       }
     } 
 
-/*.sun-ring{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 500px;
-    height: 500px;
-    border: 3px solid #FFFFFF;
-}*/
