@@ -5,8 +5,8 @@
     width: 700px;
     height: 700px;
     border-radius: 30em;
-    border: 2px solid white;
-    animation: spin 8s reverse linear infinite;
+    border: 2px solid rgba(255, 255, 255, 0.336);
+    animation: spin 15s reverse linear infinite;
 }
 
 @keyframes spin
@@ -25,5 +25,32 @@
     position: absolute;
     top: -1.5em;
     box-shadow: inset -5px -2px 13px 6px rgb(0, 0, 0);
+    transform: rotate(-90deg);
+}
+
+.moon-ring{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    animation: spin 8s reverse linear infinite;
+}
+
+@keyframes spin
+    {
+      100%{
+        transform: rotate(360deg);
+      }
+    }
+
+.moon{
+    background-color: #ffffff;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    position: absolute;
+    top: -1.5em;
     transform: rotate(-90deg);
 }
