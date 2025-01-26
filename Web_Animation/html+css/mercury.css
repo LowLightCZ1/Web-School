@@ -1,12 +1,12 @@
-.venuse-ring{
+.mercury-ring{
     display: flex;
     justify-content: center;
     position: absolute;
-    width: 550px;
-    height: 550px;
+    width: 300px;
+    height: 300px;
     border-radius: 30em;
     border: 2px solid rgba(255, 255, 255, 0.336);
-    animation: spin 12.5s reverse linear infinite;
+    animation: spin 6s reverse linear infinite;
 }
 
 @keyframes spin
@@ -16,13 +16,13 @@
       }
     }    
 
-.venuse{
-    background-color: #ff6600;
-    width: 40px;
-    height: 40px;
+.mercury{
+    background-color: cadetblue;
+    width: 30px;
+    height: 30px;
     border-radius: 20em;
     position: absolute;
     top: -1em;
-    box-shadow: inset -5px -2px 13px 6px rgb(0, 0, 0);
+    box-shadow: inset -5px -2px 13px 4px rgb(0, 0, 0);
     transform: rotate(-90deg);
 }
