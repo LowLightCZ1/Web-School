@@ -1,21 +1,17 @@
 .menu{ 
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   position: fixed;
   top: 0;
   right: 0;
   background-image: url(../img/stars-galaxy-3840x2160-10307-1041372209.jpg);
-  width: 500px;
-  height: 100px;
+  width: 30%;
+  height: 10%;
   border: none;
 }
 
-.but{
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
+
 .button{
   background-color: cadetblue;
   border: none;
@@ -26,7 +22,7 @@
   text-decoration: none;
   display: inline-block;
   font-size: 15px;
-  margin: 4px 6px;
+  margin: 0px 0px;
   cursor: pointer;
 }
 
