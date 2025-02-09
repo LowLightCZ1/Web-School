@@ -1,0 +1,21 @@
+body{    
+    background-color: #ffffff;
+}
+
+
+@media screen and (max-width: 768px) 
+{ #header #header_inner a.logo
+    {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    }
+}
+
+.logo{
+    display: block;
+    background: url(../img/logo.png);
+    
+}
