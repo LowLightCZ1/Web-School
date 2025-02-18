@@ -1,4 +1,5 @@
 *{
+    box-sizing: border-box;
     font-family: inter
 }
 
@@ -70,17 +71,33 @@ a{
 }
 
 .info_page_pr{
-    display: flex;
-    justify-content: center;
+    display: contents;
+    position: absolute;
+    height: 35rem;
 }
 
 .pr_window{
     display: flex;
     align-items: flex-end;
+    align-self:flex-end;
     background-color: #7D7D7D;
-    width: 20%;
-    height: 50%;
     margin: 30px 50px;
+}
+
+@media screen and (min-width: 768px) {
+    .pr-cont{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 9%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .pr-cont.pr_window{
+        width: calc(100% / 3 - 40px);
+    }
+    
 }
 
 .title{
@@ -90,4 +107,11 @@ a{
     background-color: #000;
     width: 100%;
     height: 15%;
+}
+
+footer{
+    background-color: #000;
+    width: 100%;
+    height: 5rem;
+    
 }
