@@ -10,16 +10,34 @@ body{
     align-items: center;
     width: 100%;
     height: 100%;
+    background: linear-gradient(0deg, rgba(5,58,128,1) 0%, rgba(3,131,191,1) 50%, rgba(104,225,255,1) 100%);;
 }
 
 .container{
-    background: linear-gradient(0deg, rgba(5,58,128,1) 0%, rgba(3,131,191,1) 50%, rgba(104,225,255,1) 100%);;
-    height: 100rem;
-    width: 100%;
+   background-color: #55AADD;
+    height: 50rem;
+    width: 60%;
 }
+
 
 h1{
     display: flex;
     justify-content: center;
     margin: 15px;
 }
+
+.questions{
+    display: flex;
+    flex-direction: column;
+   margin-top: 5%;
+   padding-left: 3%;
+   height: 100%;
+   width: 50%;
+}
+
+.f_ques{
+    padding-top: 5%;
+}
+ .l_ques{
+    padding-bottom: 5%;
+ }
