@@ -6,33 +6,40 @@
 body{
     margin: 0;
     padding: 0;
+    height: 100%;
+    width: 100%;
 }
 
 h3{
     color: #fff;
 }
 
-.header{
+header{
     width: 100vw;
-    display: grid;
-    grid-template-rows: 0.5rem 5rem;
     position: fixed;
     background-color:#fff ;
 }
 
-.header-menu{
-    display: grid;
-    grid-template-columns: 10rem 40rem;
+.content{
+    width: 35vw;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.right-flex{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+ul{
+    list-style-type: none ;
 }
+
+.header-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .logo{
+    position: relative;
+    left: -20px;
     margin: 0;
-    margin-left: 5rem;
     height: 5rem;
     width: auto;
 }
@@ -40,11 +47,7 @@ img{
     width: 100%;
     height: auto;
     margin-top: 5.5rem;
-}
-
-.line{
-    background: #575552;
-    height: 100%;
+    padding: 0;
 }
 
 a{
@@ -88,8 +91,9 @@ a{
     .pr-cont{
         display: flex;
         flex-direction: row;
+        justify-content: space-around;
         flex-wrap: wrap;
-        margin-left: 9%;
+        
     }
 }
 
