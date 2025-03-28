@@ -10,12 +10,11 @@ canvas {
     left: 50%;
     transform: translate(-50%, -50%);
     background: #222;
+    margin: 10px;
 }
 
 .score{
-    position: relative;
-    left: 2%;
-    top: 5%;
+    left: 10px;
     width: 20%;
     height: 20em;
     background-color: #222;
