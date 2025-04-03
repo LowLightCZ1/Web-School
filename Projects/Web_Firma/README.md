@@ -6,5 +6,5 @@
 
   ### První návrh stránky
   
-  ![Web_Firma][img]()
+  ![Web_Firma](screenshot_web_start.png)
 
