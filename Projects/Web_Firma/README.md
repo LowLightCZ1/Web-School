@@ -59,3 +59,8 @@ header{
     justify-content: space-evenly;
 }
 ```
+
+## Náhled
+Zde jsou náchledy na danou stránku. Ne vše zdaleka dodělané, ale bud na ní pracovat stále a časem bude hotová a bude moct sloužit jako skvělí materiál.
+
+
