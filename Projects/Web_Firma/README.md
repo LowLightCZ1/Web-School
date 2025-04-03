@@ -63,4 +63,8 @@ header{
 ## Náhled
 Zde jsou náchledy na danou stránku. Ne vše zdaleka dodělané, ale bud na ní pracovat stále a časem bude hotová a bude moct sloužit jako skvělí materiál.
 
+### Mobilní pohled
+![Web_Firma](Mobile.png)
 
+### Desktopový pohled
+![Web_Firma](desktop.png)
