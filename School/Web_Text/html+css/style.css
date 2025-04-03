@@ -18,6 +18,8 @@ header{
     background-color: black;
     height: 5rem;
     width: 50%;
+    z-index: 1000;
+    transition: all 0.2s ease-in-out;
 }
 
 .text{
@@ -32,6 +34,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 10px;
+    
 }
 
 p{
@@ -40,4 +43,5 @@ p{
 
 a{
     text-decoration: none;
+    padding: 2px;
 }

@@ -116,6 +116,17 @@ a {
     
 }
 
+@media screen and (min-widht: 760px) 
+{
+    .pr-cont{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+}
+
+
 .title{
     display: flex;
     justify-content: center;

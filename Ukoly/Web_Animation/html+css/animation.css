@@ -1,0 +1,14 @@
+body{
+    background-image: url(../img/stars-galaxy-3840x2160-10307-1041372209.jpg);
+    overflow: hidden;
+}   
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
