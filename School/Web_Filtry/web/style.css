@@ -1,0 +1,115 @@
+*{
+    font-family: inter;
+}
+
+body{
+    background: linear-gradient(305deg,rgba(0, 123, 217, 0.79) 0%, rgba(87, 199, 188, 0.9) 60%, rgba(234, 237, 83, 1) 94%);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+}
+h1,h2{
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+
+h1{
+  text-align: center;
+  width: 50%;
+}
+
+h2{
+  text-align: center;
+  padding: 0px 10px;
+  width: 20%;
+  margin: 5px 0px;
+}
+
+
+.main{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 100vh;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: #000
+}
+
+section {
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+
+table {
+  background-color: #fff;
+  border-collapse: collapse;
+  width: 100%;
+  height: 50%;
+  margin-top: 10px;
+}
+
+th,td {
+  border: 1px solid #666;
+  padding: 8px;
+  text-align: left;
+}
+
+th{
+  border: 1px solid #000;
+}
+
+tr:nth-child(even){
+  background: #ddd;
+}
+
+thead{
+  background-color: #00ff66;
+}
+
+input[type="text"],select {
+  width: 100%;
+  padding: 6px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#formular{
+  position: relative;
+  top: 30%;
+}
+
+#tabulka > input, #formular > input{
+  width: 20%;
+  margin: 0
+}
+

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>filtrováí dat</title>
+</head>
+<body>
+  <div class="main">
+      <h1>Ukázka filtrováí dat</h1>
+      <nav>
+          <a href="#tabulka" id="table">Tabulka</a>
+          <a href="#formular" id="form">Formulář</a>
+      </nav>
+      <section id="tabulka">
+          <h2>Tabulka měst</h2>
+          <input type="text" id="cityFilterInput" placeholder="Filtruj podle města..." oninput="filterTable()">
+          <table id="cityTable">
+              <thead>
+                  <tr>
+                      <th>ID</th>
+                      <th>Město</th>
+                      <th>Počet obyvatel</th>
+                  </tr>
+              </thead>
+              <tr>
+                <td>1</td>
+                <td>Praha</td>
+                <td>1300000</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Brno</td>
+                <td>380000</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Ostrava</td>
+                <td>290000</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Plzeň</td>
+                <td>175000</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Liberec</td>
+                <td>105000</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Olomouc</td>
+                <td>100000</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>Česká Kamenice</td>
+                <td>5000</td>
+              </tr>
+          </table>
+      </section>
+      <section id="formular">
+          <h2>Formulář měst</h2>
+          <input type="text" id="citySelectFilter" placeholder="Filtruj města..." oninput="filterSelect()">
+          <form id="cityForm" onsubmit="submitForm(event)">
+              <select id="citySelect" size="6">
+                  <option>Praha</option>
+                  <option>Brno</option>
+                  <option>Ostrava</option>
+                  <option>Plzeň</option>
+                  <option>Liberec</option>
+                  <option>Olomouc</option>
+                  <option>Česká Kamenice</option>
+              </select>
+              <button type="submit">Odeslat</button>
+          </form>
+      </section>
+  </div>
+  
+  <script src="../scrypts/scrypt.js"></script>
+</body>
+</html>
