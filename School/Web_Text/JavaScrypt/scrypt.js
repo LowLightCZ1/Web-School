@@ -1,6 +1,7 @@
 let btn_href = document.getElementsByClassName("btn")
 let n = 0
 let text = document.getElementById("text")
+
 document.addEventListener('DOMContentLoaded', () => {
     const header = document.getElementById('1');
     let lastScrollY = window.scrollY;
@@ -20,6 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
         lastScrollY = currentScrollY;
     });
 });
+
 
 btn_href.onclick = () => {
     n++

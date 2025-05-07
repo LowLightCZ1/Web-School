@@ -47,5 +47,4 @@ function submitForm(event) {
     console.log(selectedCity);
 }
 
-function onclick() =>  
 
