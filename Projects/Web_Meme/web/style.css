@@ -16,3 +16,19 @@ header{
     align-items: center;
     background-color: #666;
 }
+
+a{
+    text-decoration: none;
+}
+
+section{
+    border: 2px solid #222;
+    width: 100%;
+    height: 60vh;
+}
+
+footer{
+    background-color: #000;
+    width: 100%;
+    height: 30vh;
+}
