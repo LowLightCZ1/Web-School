@@ -47,3 +47,4 @@ function submitForm(event) {
     console.log(selectedCity);
 }
 
+

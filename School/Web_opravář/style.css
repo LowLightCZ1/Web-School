@@ -1,0 +1,37 @@
+body {
+    background: #f0f0f0; 
+    font-family: sans-serif; 
+    display: flex;
+    justify-content: center;
+}
+  
+.kontainer { 
+    max-width: 650px; 
+    margin-top: 50px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px gray; 
+}
+  
+h1 {
+    color: blue-gray;
+}
+  
+.introduction {
+    font-size: big; 
+}
+
+#btn-color{
+    width: 150px;
+    height: 40px;
+    background-color: #50f;
+    color: #fff;
+    box-shadow: none;
+    border-radius: 5px;
+    border: none ;
+}
+
+#btn-color:hover{
+    background-color: #30f;
+}
