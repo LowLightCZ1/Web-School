@@ -1,0 +1,31 @@
+*{
+    font-family: inter;
+    
+}
+
+body{
+    display: grid;
+    height: 90vh;
+    width: auto;
+    grid-template-columns: [first] 5% [line2] 25% [line3] auto [line4] 25% [line5] 5% [end];
+    grid-template-rows: [row1-start] 20% [row1-end] 35% [third-line] auto [last-line];
+}
+
+h1{
+    grid-column: line3 / line4;
+    grid-row: row1-start / row1-end;
+    text-align: center;
+}
+
+tr,td,th{
+    font-size: 100%;
+}
+
+#prevod_men{
+    grid-column: line3 / line4;
+    grid-row: row1-end / third-line;
+    margin: 15px 10px 15px 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
