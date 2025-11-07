@@ -19,7 +19,7 @@
                     <tr>
                         <td>
                             <select name="mena1" id="mena1" size="4" style="height: 100px;">
-                                <option value="CZE">Česká Koruna</option>
+                                <option value="CZK" selected>Česká Koruna</option>
                                 <option value="EUR">Euro</option>
                                 <option value="USD">Americký dolar</option>
                                 <option value="PLN">Plský zlotý</option>
@@ -28,8 +28,8 @@
                         <td>na</td>
                         <td>
                             <select name="mena2" id="mena2" size="4" style="height: 100px;">
-                                <option value="CZE">Česká Koruna</option>
-                                <option value="EUR">Euro</option>
+                                <option value="CZK">Česká Koruna</option>
+                                <option value="EUR" selected>Euro</option>
                                 <option value="USD">Americký dolar</option>
                                 <option value="PLN">Plský zlotý</option>
                             </select>
@@ -38,14 +38,20 @@
                     <tr>
                         <td>
                             částka na převod
-                            <input name="c" value="1" size="6">
+                            <input id="suma" name="c" value="1" size="6">
                         </td>
+                        <td>
+                            <button id="convertBtn" type="button">Převeď</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <p id="vysledek"></p>   
                     </tr>
                 </tbody>  
             </table>
         </form>
     </div>
 
-    <script src=""></script>
+    <script src="script.js"></script>
 </body>
 </html>
