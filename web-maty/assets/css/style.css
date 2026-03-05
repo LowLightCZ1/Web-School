@@ -24,7 +24,7 @@ body{
 }
 
 .slot-container{
-    width: auto;
+    width: 40%;
     height: 70%;
     background-color: #ddd;
     border-radius: 10%;
@@ -40,6 +40,10 @@ body{
     }
 }
 
+h2{
+    font-size: 3em;
+}
+
 .btn-cont{
     grid-row: btn-start / btn-end;
     grid-column: start / end;
@@ -49,17 +53,19 @@ body{
     align-items: center;
 }
 
-.slot-btn{
+.btn-slot{
     height: 80%;
     width: 80%;
     border-radius: 30px;
-    border: 8px solid #0061b5;
+    border: 8px solid #004f95;
     transition: 0.3s ease-in-out;
+    font-size: 2em;
 }
 
-.slot-btn:hover{
+.btn-slot:hover{
     background-color: #0061b5;
 }
+
 
 .slot{
     grid-row: slot-start / slot-end;
